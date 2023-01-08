@@ -50,7 +50,7 @@ export default function Projects() {
   return (
     <div id="projects" className="mb-10">
       <Heading name="Projects" color="bg-pink-400" />
-      <div className="flex flex-wrap p-6">
+      <div className="flex flex-col md:flex-wrap md:flex-row p-6">
         {projects.map((project) => {
           return (
             <ProjectCard

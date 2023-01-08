@@ -4,8 +4,8 @@ export default function About() {
   return (
     <div id="about" className="my-20">
       <Heading name="About Me" color="bg-purple-400" />
-      <div className="flex flex-row p-6">
-        <div className="bg-fuchsia-900 p-6 rounded-lg w-8/12">
+      <div className="flex flex-col xl:flex-row p-6 justify-center">
+        <div className="bg-fuchsia-900 p-6 rounded-lg xl:w-8/12">
           <p>
             My name is Angela and I’m a third-year Software Engineering student
             at McMaster University. I discovered my passion in tech after coding
@@ -27,7 +27,7 @@ export default function About() {
             Ori, and Celeste! I highly recommend giving them a try :)
           </p>
         </div>
-        <div className="bg-blue-200 w-4/12 mx-10">img</div>
+        <div className="bg-blue-200 lg:w-4/12 mx-10">img</div>
       </div>
     </div>
   );

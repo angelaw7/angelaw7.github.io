@@ -5,8 +5,8 @@ export default function ProjectCard(props: ProjectCardProps) {
   const textColor = "text-pink-700";
 
   return (
-    <div className="flex flex-col w-6/12">
-      <div className="bg-white p-6 m-3 rounded-lg border-t-8 border-pink-300 hover:m-2 ">
+    <div className="flex flex-col md:w-6/12">
+      <div className="bg-white p-6 m-4 rounded-lg border-t-8 border-pink-300">
         <a
           href={link}
           target="_blank"

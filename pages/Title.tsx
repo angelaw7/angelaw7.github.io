@@ -11,24 +11,24 @@ export default function Title() {
         <span className="text-purple-400">software engineering student</span>
       </h2>
 
-      <div className="flex-col">
+      <div className="flex-col w-min  mx-auto">
         <a href="#about">
-          <p className="text-center text-xl my-2 w-auto hover:text-purple-400 hover:text-2xl leading-8">
+          <p className="text-center text-xl my-2 hover:text-purple-400 hover:text-2xl leading-8">
             about
           </p>
         </a>
         <a href="#experience">
-          <p className="text-center text-xl my-2 w-auto hover:text-purple-400 hover:text-2xl leading-8">
+          <p className="text-center text-xl my-2 hover:text-purple-400 hover:text-2xl leading-8">
             experience
           </p>
         </a>
         <a href="#projects">
-          <p className="text-center text-xl my-2 w-auto hover:text-purple-400 hover:text-2xl leading-8">
+          <p className="text-center text-xl my-2 hover:text-purple-400 hover:text-2xl leading-8">
             projects
           </p>
         </a>
         <a href="#contact">
-          <p className="text-center text-xl my-2 w-auto hover:text-purple-400 hover:text-2xl leading-8">
+          <p className="text-center text-xl my-2 hover:text-purple-400 hover:text-2xl leading-8">
             contact
           </p>
         </a>

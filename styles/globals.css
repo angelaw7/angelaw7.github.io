@@ -10,13 +10,13 @@
 
 html,
 body {
-  width: 100vw;
-  overflow-x: hidden;
   background-color:#321D51;
   color: #fff;
   display: flex;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 1200px;
+  margin: auto;
   scroll-behavior: smooth;
 }
 

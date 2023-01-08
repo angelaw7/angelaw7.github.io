@@ -1,6 +1,8 @@
 export default function Heading({ name, color }: HeadingProp) {
   return (
-    <div className={color + " pt-2 mb-6"}>
+    <div
+      className={color + " pb-3 pt-5 mb-6 border-b-2 border-r-2 border-white"}
+    >
       <h2 className="text-3xl text-center font-bold">{name}</h2>
     </div>
   );
