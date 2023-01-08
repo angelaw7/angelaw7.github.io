@@ -14,10 +14,10 @@ body {
   overflow-x: hidden;
   background-color:#321D51;
   color: #fff;
-  letter-spacing: 0.5px;
   display: flex;
   padding-left: 6rem;
   padding-right: 6rem;
+  scroll-behavior: smooth;
 }
 
 a {
