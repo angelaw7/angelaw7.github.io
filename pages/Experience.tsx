@@ -33,10 +33,11 @@ export default function Experience() {
       img: MLHLogo,
     },
   ];
+
   return (
     <div id="experience" className="my-20">
       <Heading name="Experience" color="bg-blue-400" />
-      <div>
+      <div className="p-2">
         {experiences.map((experience) => {
           return (
             <div>

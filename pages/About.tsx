@@ -3,9 +3,9 @@ import Heading from "../components/Heading";
 export default function About() {
   return (
     <div id="about" className="my-20">
-      <Heading name="About Me" color="bg-purple-500" />
-      <div className="flex flex-row p-8">
-        <div className="bg-violet-900 p-6 rounded-lg w-8/12">
+      <Heading name="About Me" color="bg-purple-400" />
+      <div className="flex flex-row p-6">
+        <div className="bg-fuchsia-900 p-6 rounded-lg w-8/12">
           <p>
             My name is Angela and I’m a third-year Software Engineering student
             at McMaster University. I discovered my passion in tech after coding

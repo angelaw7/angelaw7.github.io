@@ -18,11 +18,11 @@ export default function ExperienceCard(props: ProjectProps) {
         </div>
       </div>
       <div className="w-9/12">
-        <div className="bg-white rounded-lg p-6">
+        <div className="bg-white rounded-lg p-6 border-t-8 border-blue-300 m-1 hover:m-0">
           <p className={textColor + " text-xl mb-1"}>
             <span className="font-bold">{position}</span> @ {company}
           </p>
-          <p className={textColor + " text-sm italic mb-1"}>{tools}</p>
+          <p className={"text-blue-500" + " text-sm italic mb-1"}>{tools}</p>
           <p className={textColor + " mb-1"}>{description}</p>
           <p className={"text-slate-500" + " text-sm"}>{date}</p>
         </div>
