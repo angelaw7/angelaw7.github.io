@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="bg-orange-800 p-6 rounded-lg">
           <h3 className="text-xl text-amber-400 font-bold">Let's connect!</h3>
           <p>
-            Thanks for taking a look at my website! If anything here piqued your
+            Thanks for visiting my website! If anything here piqued your
             interest, whether that be about something I worked on or related to
             my interests or hobbies, feel free to reach out - I'd love to have a
             chat :)

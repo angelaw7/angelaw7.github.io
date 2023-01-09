@@ -25,3 +25,24 @@ a {
   text-decoration: none;
 }
 
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(206, 185, 255);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(162, 91, 227);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(126, 60, 176);
+}

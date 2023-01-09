@@ -13,7 +13,7 @@ export default function Home() {
         <title>Angela Wang</title>
         <meta name="description" content="Angela Wang's Personal Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/fox.svg" />
       </Head>
       <Title />
       <About />

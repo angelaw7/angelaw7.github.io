@@ -40,7 +40,7 @@ export default function Experience() {
       <div className="p-2 overflow-hidden">
         {experiences.map((experience) => {
           return (
-            <div>
+            <div key={experience.position}>
               <ExperienceCard
                 position={experience.position}
                 company={experience.company}

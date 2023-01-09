@@ -27,7 +27,6 @@ export default function ExperienceCard(props: ProjectProps) {
           <p className={"text-slate-500" + " text-sm"}>{date}</p>
         </div>
       </div>
-      {/* <div className="relative bg-white h-2/5 w-1 z-0" /> */}
     </div>
   );
 }
@@ -40,3 +39,10 @@ interface ProjectProps {
   tools: string;
   img: StaticImageData;
 }
+
+type StaticImageData = {
+  src: string;
+  height: number;
+  width: number;
+  blurDataURL?: string;
+};

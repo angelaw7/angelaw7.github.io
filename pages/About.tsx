@@ -22,12 +22,14 @@ export default function About() {
             <br />
             Outside of work, I enjoy expressing myself through digital art,
             reaching my fitness goals through rock climbing and swimming, and
-            exploring different worlds through gaming. This website itself was
-            influenced by some of the games I love, including Hollow Knight,
-            Ori, and Celeste! I highly recommend giving them a try :)
+            exploring different worlds through gaming - some of my favourites
+            are Hollow Knight and Ori for their amazing storytelling,
+            animations, and soundtracks :)
           </p>
         </div>
-        <div className="bg-blue-200 lg:w-4/12 mx-10">img</div>
+        <div className="bg-purple-200 lg:w-4/12 mx-10 text-violet-600 text-center">
+          will add profile soon!
+        </div>
       </div>
     </div>
   );
