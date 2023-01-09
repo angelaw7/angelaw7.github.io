@@ -14,11 +14,11 @@ export default function Skill(props: SkillProp) {
     <div className="flex flex-row">
       <p>{name}:</p>
       <div className="flex flex-row ml-2">
-        {arr.map((item) =>
+        {arr.map((item, idx) =>
           item === true ? (
-            <Fox height="20" width="20" fill="white" />
+            <Fox key={idx} height="20" width="20" fill="white" />
           ) : (
-            <Fox height="20" width="20" fill="white" opacity={0.3} />
+            <Fox key={idx} height="20" width="20" fill="white" opacity={0.3} />
           )
         )}
       </div>
