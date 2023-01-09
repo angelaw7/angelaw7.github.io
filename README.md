@@ -8,3 +8,7 @@ Version 2 of my personal website - I wanted to change up the theme a little bit 
 
 Take a look here!: https://angelaw7.github.io/
 
+## Todo List
+- [] Animations
+- [] Make profile card flippable
+- [] More fox :D

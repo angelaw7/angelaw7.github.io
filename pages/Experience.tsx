@@ -38,6 +38,7 @@ export default function Experience() {
     <div id="experience" className="my-20">
       <Heading name="Experience" color="bg-blue-400" />
       <div className="p-2 overflow-hidden">
+        <p className="absolute font-mono ml-4 mt-4 text-violet-200">Lvl 3</p>
         {experiences.map((experience) => {
           return (
             <div key={experience.position}>

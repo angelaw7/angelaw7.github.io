@@ -7,7 +7,7 @@ export default function Contact() {
     <div id="contact" className="my-20">
       <Heading name="Contact" color="bg-orange-400" />
       <div className="p-6">
-        <div className="bg-orange-800 p-6 rounded-lg">
+        <div className="bg-orange-800 p-6 rounded-lg border-2 border-orange-200">
           <h3 className="text-xl text-amber-400 font-bold">
             Let&apos;s connect!
           </h3>

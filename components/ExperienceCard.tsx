@@ -8,6 +8,9 @@ export default function ExperienceCard(props: ProjectProps) {
     <div className="flex flex-col md:flex-row my-6 items-center ">
       <div className="w-2/12 flex justify-items-center ">
         <div className="relative rounded-full bg-white h-16 w-16 m-auto flex mb-4 relative after:absolute after:bg-white after:w-1 after:h-96 after:-mt-8 after:ml-8 z-0 ">
+          <p className="absolute ml-14 -mt-2 font-mono text-sm text-violet-300">
+            +xp
+          </p>
           <Image
             src={img}
             alt={company + " logo"}
