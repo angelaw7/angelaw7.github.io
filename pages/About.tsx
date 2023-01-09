@@ -7,17 +7,18 @@ export default function About() {
       <div className="flex flex-col xl:flex-row p-6 justify-center">
         <div className="bg-fuchsia-900 p-6 rounded-lg xl:w-8/12">
           <p>
-            My name is Angela and I’m a third-year Software Engineering student
-            at McMaster University. I discovered my passion in tech after coding
-            a virtual robot arm to pick up some virtual boxes in my first-year
-            engineering design course, and ever since then fell in love with the
-            logic, problem-solving, and creativity that comes with programming.
+            My name is Angela and I&apos;m a third-year Software Engineering
+            student at McMaster University. I discovered my passion in tech
+            after coding a virtual robot arm to pick up some virtual boxes in my
+            first-year engineering design course, and ever since then fell in
+            love with the logic, problem-solving, and creativity that comes with
+            programming.
             <br />
             <br />
             Most of my previous experiences has been in fullstack web and app
-            development, although I'm more interested in the backend side of
-            things. I'm also curious about machine learning and am learning
-            about it during my free time.
+            development, although I&apos;m more interested in the backend side
+            of things. I&apos;m also curious about machine learning and am
+            learning about it during my free time.
             <br />
             <br />
             Outside of work, I enjoy expressing myself through digital art,

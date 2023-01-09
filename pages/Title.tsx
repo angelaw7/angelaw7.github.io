@@ -5,9 +5,11 @@ export default function Title() {
   return (
     <div className="flex justify-center mt-0 h-screen flex-col align-middle justify-items-center my-20">
       <Image src={Fox} alt="fox!" className="w-full h-40 mb-10" />
-      <h1 className="text-6xl font-bold text-center mb-2">hey, I'm Angela!</h1>
+      <h1 className="text-6xl font-bold text-center mb-2">
+        hey, I&apos;m Angela!
+      </h1>
       <h2 className="text-3xl text-center mb-10">
-        I'm a{" "}
+        I&apos;m a{" "}
         <span className="text-purple-400">software engineering student</span>
       </h2>
 

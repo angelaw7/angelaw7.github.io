@@ -10,6 +10,7 @@ export default function ProjectCard(props: ProjectCardProps) {
         <a
           href={link}
           target="_blank"
+          rel="noreferrer"
           className="flex flex-row justify-between"
         >
           <h1 className={textColor + " font-bold text-xl mb-1"}>{title}</h1>
