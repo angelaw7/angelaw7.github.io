@@ -45,7 +45,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/angelawwang/"
+            href="https://www.linkedin.com/in/angelaxwang7/"
             target={"_blank"}
             rel="noreferrer"
           >
