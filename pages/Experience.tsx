@@ -4,6 +4,7 @@ import RecursionLogo from "../imgs/recursion.png";
 import FyelabsLogo from "../imgs/fyelabs.jpg";
 import MLHLogo from "../imgs/mlh.png";
 
+
 export default function Experience() {
   const experiences = [
     {
@@ -38,19 +39,22 @@ export default function Experience() {
     <div id="experience" className="my-20">
       <Heading name="Experience" color="bg-blue-400" />
       <div className="p-2 overflow-hidden">
-        <p className="absolute font-mono ml-4 mt-4 text-violet-200">Lvl 3</p>
+        {/* <p className="absolute font-mono ml-4 mt-4 text-violet-200">Lvl 3</p> */}
         {experiences.map((experience) => {
           return (
-            <div key={experience.position}>
-              <ExperienceCard
-                position={experience.position}
-                company={experience.company}
-                description={experience.description}
-                tools={experience.tools}
-                date={experience.date}
-                img={experience.img}
-              />
-            </div>
+
+              
+                <ExperienceCard
+              key={experience.position}
+                  position={experience.position}
+                  company={experience.company}
+                  description={experience.description}
+                  tools={experience.tools}
+                  date={experience.date}
+                  img={experience.img}
+                />
+              
+
           );
         })}
       </div>
