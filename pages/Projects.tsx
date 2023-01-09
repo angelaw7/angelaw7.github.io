@@ -13,7 +13,7 @@ export default function Projects() {
     {
       title: "Personal Website v2",
       tools: "Next.js, TypeScript, Tailwind",
-      link: "https://github.com/LaloVene/MLH-PE-Project",
+      link: "https://github.com/angelaw7/angelaw7.github.io",
       description:
         "This website here! Wanted to try something new after using a bunch of React and Material UI so I went with Next.js and Tailwind. Designed using a minamalistic game-styled theme inspired by some indie games that I like :)",
     },
