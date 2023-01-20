@@ -24,20 +24,20 @@ export default function Projects() {
       description:
         "Pathfinding visualizer built with Tkinter to observe the performance of several graph algorithms using London's subway network data. Can visualize and compare Dijkstra's algorithm, A* algorithm, BFS, and traveling salesman's problem.",
     },
-    {
-      title: "Python -> Assembly Translator",
-      tools: "Python",
-      link: "https://github.com/angelaw7/python-to-assembly",
-      description:
-        "Translates Python code into PEP/9 assembly code, created for a course project. The translator parses the abstract syntax tree (AST) from the Python code and pattern-matches to generate assembly code, supports basic variables, loops, and functions.",
-    },
-    {
-      title: "Roomie Huddle App",
-      tools: "React Native, SQLite, Android SDK",
-      link: "https://github.com/arzekeil/homies_management_system",
-      description:
-        "Android application designed using React Native to manage typical university roommate needs such as organizing chores, managing payments, and posting announcements/discussion threads. Supports CRUD operations.",
-    },
+    // {
+    //   title: "Python -> Assembly Translator",
+    //   tools: "Python",
+    //   link: "https://github.com/angelaw7/python-to-assembly",
+    //   description:
+    //     "Translates Python code into PEP/9 assembly code, created for a course project. The translator parses the abstract syntax tree (AST) from the Python code and pattern-matches to generate assembly code, supports basic variables, loops, and functions.",
+    // },
+    // {
+    //   title: "Roomie Huddle App",
+    //   tools: "React Native, SQLite, Android SDK",
+    //   link: "https://github.com/arzekeil/homies_management_system",
+    //   description:
+    //     "Android application designed using React Native to manage typical university roommate needs such as organizing chores, managing payments, and posting announcements/discussion threads. Supports CRUD operations.",
+    // },
     {
       title: "4fun Discord Bot",
       tools: "Python, Discord.py, Riot/Twitch/Jikan API",
