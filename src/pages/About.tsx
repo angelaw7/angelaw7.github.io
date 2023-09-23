@@ -3,7 +3,7 @@ import Skill from "../components/Skill";
 import Image from "next/image";
 import ProfilePic from "../imgs/angela.png";
 import { motion } from "framer-motion";
-import { fade } from "../styles/animations";
+import { fade } from "../../styles/animations";
 
 export default function About() {
   return (

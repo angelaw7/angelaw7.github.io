@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { slideFromRight } from "../styles/animations";
+import { slideFromRight } from "../../styles/animations";
 
 export default function ExperienceCard(props: ProjectProps) {
   const { position, company, date, tools, description, img } = props;

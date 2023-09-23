@@ -1,6 +1,6 @@
 import Fox from "../components/Fox";
 import { motion } from "framer-motion";
-import { fade } from "../styles/animations";
+import { fade } from "../../styles/animations";
 
 export default function Title() {
   return (

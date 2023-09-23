@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { slideFromTop } from "../styles/animations";
+import { slideFromTop } from "../../styles/animations";
 
 export default function Heading({ name, color }: HeadingProp) {
   return (

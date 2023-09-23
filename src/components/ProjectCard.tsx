@@ -1,6 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { slideFromRight } from "../styles/animations";
+import { slideFromRight } from "../../styles/animations";
 
 export default function ProjectCard(props: ProjectCardProps) {
   const { title, tools, link, description } = props;
