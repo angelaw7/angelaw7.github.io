@@ -1,6 +1,6 @@
 import Heading from "../components/Heading";
 import ProjectCard from "../components/ProjectCard";
-
+import Section from "../components/Section";
 export default function Projects() {
   const projects = [
     {
@@ -48,21 +48,23 @@ export default function Projects() {
   ];
 
   return (
-    <div id="projects" className="mb-10">
-      <Heading name="Projects" color="bg-pink-400" />
-      <div className="flex flex-col md:flex-wrap md:flex-row p-6">
-        {projects.map((project) => {
-          return (
-            <ProjectCard
-              key={project.title}
-              title={project.title}
-              tools={project.tools}
-              link={project.link}
-              description={project.description}
-            />
-          );
-        })}
-      </div>
+    <div id="projects">
+      <Section>
+        <Heading name="Projects" color="bg-pink-400" />
+        <div className="flex flex-col md:flex-wrap md:flex-row p-6">
+          {projects.map((project) => {
+            return (
+              <ProjectCard
+                key={project.title}
+                title={project.title}
+                tools={project.tools}
+                link={project.link}
+                description={project.description}
+              />
+            );
+          })}
+        </div>
+      </Section>
     </div>
   );
 }

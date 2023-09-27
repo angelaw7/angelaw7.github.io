@@ -1,10 +1,12 @@
 import Fox from "../components/Fox";
 import { motion } from "framer-motion";
-import { fade } from "../../styles/animations";
+import { fade } from "../styles/animations";
+import styled from "styled-components";
+import titlebg from "../imgs/redbg.jpg";
 
 export default function Title() {
   return (
-    <div className="flex justify-center mt-0 h-screen flex-col align-middle justify-items-center my-20">
+    <TitleBackground className="flex justify-center mt-0 h-screen flex-col align-middle justify-items-center w-screen">
       <div className="mx-auto my-4">
         <motion.div initial="hidden" animate="visible" variants={fade(0)}>
           <motion.div
@@ -18,14 +20,14 @@ export default function Title() {
         </motion.div>
       </div>
       <motion.div initial="hidden" animate="visible" variants={fade(0)}>
-        <h1 className="text-6xl font-bold text-center mb-2">
-          hey, I&apos;m Angela!
+        <h1 className="text-5xl font-bold text-center mb-2">
+          Hi! I&apos;m <span className="text-orange-400">Angela</span> -&nbsp;
         </h1>
       </motion.div>
       <motion.div initial="hidden" animate="visible" variants={fade(1)}>
-        <h2 className="text-3xl text-center mb-10">
-          I&apos;m a{" "}
-          <span className="text-purple-400">software engineering student</span>
+        <h2 className="text-4xl text-center mb-10 mt-2 font-bold">
+          a&nbsp;
+          <span className="text-orange-200">software engineering</span> student
         </h2>
       </motion.div>
 
@@ -59,6 +61,13 @@ export default function Title() {
           </a>
         </motion.div>
       </div>
-    </div>
+    </TitleBackground>
   );
 }
+
+const TitleBackground = styled.div`
+  background-image: url(${titlebg.src});
+  background-size: cover;
+  box-shadow: 0 3000px rgba(38, 19, 19, 0.7) inset;
+  color: #e6e6e6;
+`;

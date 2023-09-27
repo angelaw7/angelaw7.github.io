@@ -2,7 +2,7 @@ import Heading from "../components/Heading";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { motion } from "framer-motion";
-import { fade, pop } from "../../styles/animations";
+import { fade, pop } from "../styles/animations";
 
 export default function Contact() {
   return (

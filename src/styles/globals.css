@@ -11,11 +11,11 @@
 html,
 body {
   background-color:#f9f1e6;
-  color: #fff;
+  color: #191919;
   display: flex;
-  /* padding-left: 2rem; */
-  /* padding-right: 2rem; */
   scroll-behavior: smooth;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 a {

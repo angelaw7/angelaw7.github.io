@@ -16,9 +16,9 @@ export default function Skill(props: SkillProp) {
       <div className="flex flex-row ml-2">
         {arr.map((item, idx) =>
           item === true ? (
-            <Fox key={idx} height="20" width="20" fill="white" />
+            <Fox key={idx} height="20" width="20" fill="black" />
           ) : (
-            <Fox key={idx} height="20" width="20" fill="white" opacity={0.3} />
+            <Fox key={idx} height="20" width="20" fill="black" opacity={0.3} />
           )
         )}
       </div>
