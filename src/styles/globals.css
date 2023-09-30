@@ -10,7 +10,7 @@
 
 html,
 body {
-  background-color:#f9f1e6;
+  background-color:#f9f5ee;
   color: #191919;
   display: flex;
   scroll-behavior: smooth;
@@ -22,4 +22,3 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
