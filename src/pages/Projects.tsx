@@ -1,6 +1,11 @@
 import Heading from "../components/Heading";
 import ProjectCard from "../components/ProjectCard";
 import Section from "../components/Section";
+import DevUpImg from "../imgs/DevUpImg.png";
+import PersonalSiteImg from "../imgs/PersonalSite.png";
+import DiscordBotImg from "../imgs/DiscordBot.png";
+import PathfindingVisualizerImg from "../imgs/PathfindingVisualizer.png";
+
 export default function Projects() {
   const projects = [
     {
@@ -9,6 +14,7 @@ export default function Projects() {
       link: "https://github.com/LaloVene/MLH-PE-Project",
       description:
         "A fullstack CRUD web application built to help developers find others to collaborate with on projects. Dockerized with CI/CD using GitHub Actions and monitoring with cAdvisor, Grafana, and Prometheus.",
+      img: DevUpImg,
     },
     {
       title: "Personal Website v2",
@@ -16,6 +22,7 @@ export default function Projects() {
       link: "https://github.com/angelaw7/angelaw7.github.io",
       description:
         "This website here! Wanted to try something new after using a bunch of React and Material UI so I went with Next.js and Tailwind. Designed using a minamalistic game-styled theme inspired by some indie games that I like :)",
+      img: PersonalSiteImg,
     },
     {
       title: "London Pathfinding Visualizer",
@@ -23,6 +30,7 @@ export default function Projects() {
       link: "https://github.com/angelaw7/pathfinding-visualizer",
       description:
         "Pathfinding visualizer built with Tkinter to observe the performance of several graph algorithms using London's subway network data. Can visualize and compare Dijkstra's algorithm, A* algorithm, BFS, and traveling salesman's problem.",
+      img: PathfindingVisualizerImg,
     },
     // {
     //   title: "Python -> Assembly Translator",
@@ -44,17 +52,19 @@ export default function Projects() {
       link: "https://github.com/angelaw7/discord-bot",
       description:
         "A Python Discord bot that interacts with Twitch, Riot Games, and Jikan API to fetch data and embed it in a Discord message. Can change user roles on message reactions, purge messages, and search for definitions on Urban Dictionary.",
+      img: DiscordBotImg,
     },
   ];
 
   return (
     <div id="projects">
-      <Section>
-        <Heading name="Projects" color="bg-pink-400" />
+      <Section bgColour="bg-blue-200">
+        <Heading name="Projects" color="bg-blue-300" />
         <div className="flex flex-col md:flex-wrap md:flex-row p-6">
           {projects.map((project) => {
             return (
               <ProjectCard
+                img={project.img}
                 key={project.title}
                 title={project.title}
                 tools={project.tools}

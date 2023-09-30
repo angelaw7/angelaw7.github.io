@@ -21,13 +21,14 @@ export default function ProjectCard(props: ProjectCardProps) {
           }}
         >
           <div className="bg-white pb-6 rounded-2xl">
-            <div className="mb-4 rounded-tr-2xl rounded-tl-2xl overflow-clip max-h-52">
+            <div className="mb-4 rounded-tr-2xl rounded-tl-2xl overflow-clip max-h-60">
               {img ? (
                 <Image
-                  src={img}
+                  src={img.src}
+                  width={1000}
+                  height={1000}
                   alt={title + " image"}
                   className="m-auto"
-                  style={{ objectFit: "cover", width: "100%", height: "50%" }}
                 />
               ) : (
                 <div className="bg-neutral-300 w-full h-40"></div>
