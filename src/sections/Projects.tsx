@@ -9,7 +9,7 @@ export default function Projects() {
       <Section bgColour="bg-rose-300">
         <Heading name="Projects" color="bg-rose-300" />
         <div className="px-6">
-          <p>Experimenting and creating new things for fun :&gt;</p>
+          <p>Experimenting and making things for fun :&gt;</p>
         </div>
         <div className="flex flex-col md:flex-wrap md:flex-row p-6">
           {projects.map((project) => {
