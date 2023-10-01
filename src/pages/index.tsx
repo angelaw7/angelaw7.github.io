@@ -1,11 +1,9 @@
 import Head from "next/head";
-import Title from "./Title";
-import About from "./About";
-import Footer from "./Footer";
-import Experience from "./Experience";
-import Contact from "../components/Contact";
-import Projects from "./Projects";
-import styled from "styled-components";
+import Title from "../sections/Title";
+import About from "../sections/About";
+import Experience from "../sections/Experience";
+import Projects from "../sections/Projects";
+import Footer from "../sections/Footer";
 
 export default function Home() {
   return (
