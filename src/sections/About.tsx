@@ -31,13 +31,13 @@ export default function About() {
               </div>
             </motion.div>
           </div>
-          <div className="lg:w-4/12 mx-10 ">
+          <div className="lg:w-4/12">
             <motion.div
               initial="hidden"
               whileInView="visible"
               variants={fade(1, 0.5)}
             >
-              <div className=" rounded-lg flex flex-col bg-orange-200 font-mono justify-center">
+              <div className="rounded-lg flex flex-col bg-orange-200 font-mono justify-center">
                 <div className="bg-white mx-auto my-4 overflow-hidden border-4 border-white rounded-full">
                   <Image
                     src={ProfilePic}
@@ -47,7 +47,6 @@ export default function About() {
                   />
                 </div>
                 <p className="font-bold text-2xl text-center">Angela</p>
-                <div className="h-0.5 w-48 mx-auto my-2" />
                 <div className="text-center m-auto my-2">
                   <Skill name="Python" value={5} />
                   <Skill name="Java" value={4} />

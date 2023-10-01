@@ -6,6 +6,7 @@ import { pop } from "../styles/animations";
 
 export default function Contact({ ...props }: Props) {
   const showBgColour = props.showBgColour ?? false;
+  const delay = props.delay ?? 0;
 
   const logoStyle = `text-white w-8 h-8 m-auto`;
   const bubbleStyle = `rounded-full w-14 h-14 justify-center m-4 flex`;
@@ -21,8 +22,8 @@ export default function Contact({ ...props }: Props) {
           >
             <motion.div
               initial="hidden"
-              whileInView="visible"
-              variants={pop(0)}
+              animate="visible"
+              variants={pop(delay + 0)}
               whileHover={{ scale: 1.2 }}
             >
               <div
@@ -43,8 +44,8 @@ export default function Contact({ ...props }: Props) {
             {" "}
             <motion.div
               initial="hidden"
-              whileInView="visible"
-              variants={pop(0.25)}
+              animate="visible"
+              variants={pop(delay + 0.25)}
               whileHover={{ scale: 1.2 }}
             >
               <div
@@ -60,8 +61,8 @@ export default function Contact({ ...props }: Props) {
             {" "}
             <motion.div
               initial="hidden"
-              whileInView="visible"
-              variants={pop(0)}
+              animate="visible"
+              variants={pop(delay + 0)}
               whileHover={{ scale: 1.2 }}
             >
               <div
@@ -82,4 +83,5 @@ export default function Contact({ ...props }: Props) {
 interface Props {
   children?: ReactNode;
   showBgColour?: boolean;
+  delay?: number;
 }

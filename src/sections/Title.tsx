@@ -54,7 +54,7 @@ export default function Title() {
             </p>
           </a>
         </motion.div>
-        <Contact />
+        <Contact delay={3.2} />
       </div>
     </TitleBackground>
   );
