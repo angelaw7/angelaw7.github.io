@@ -1,8 +1,8 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import { Overpass } from "@next/font/google";
+import { Ubuntu } from "@next/font/google";
 
-const font = Overpass({ weight: ["400"] });
+const font = Ubuntu({ weight: ["400"], display: "swap" });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
