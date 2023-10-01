@@ -9,7 +9,7 @@ export default function Experience() {
       <Section bgColour="bg-blue-300">
         <Heading name="Experience" color="bg-blue-300" />
         <div className="p-2 overflow-hidden">
-          {/* <p className="absolute font-mono ml-4 mt-4 text-violet-200">Lvl 3</p> */}
+          <p className="px-6">Places I&apos;ve worked!</p>
           {experiences.map((experience) => {
             return (
               <ExperienceCard
