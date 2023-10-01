@@ -58,8 +58,11 @@ export default function Projects() {
 
   return (
     <div id="projects">
-      <Section bgColour="bg-blue-200">
-        <Heading name="Projects" color="bg-blue-300" />
+      <Section bgColour="bg-rose-300">
+        <Heading name="Projects" color="bg-rose-300" />
+        <div className="px-6">
+          <p>Experimenting and creating new things for fun :&gt;</p>
+        </div>
         <div className="flex flex-col md:flex-wrap md:flex-row p-6">
           {projects.map((project) => {
             return (
@@ -74,6 +77,12 @@ export default function Projects() {
             );
           })}
         </div>
+        {/* TODO: add button when new projects page is done */}
+        {/* <div className="flex justify-center">
+          <button className="bg-rose-400 text-white border-2 border-rose-400 px-4 py-2 rounded-lg neutral-50">
+            View more &#8594;
+          </button>
+        </div> */}
       </Section>
     </div>
   );
