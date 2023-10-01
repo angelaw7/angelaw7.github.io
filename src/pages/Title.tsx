@@ -3,10 +3,11 @@ import { motion } from "framer-motion";
 import { fade } from "../styles/animations";
 import styled from "styled-components";
 import titlebg from "../imgs/redbg.jpg";
+import Contact from "../components/Contact";
 
 export default function Title() {
   return (
-    <TitleBackground className="flex justify-center mt-0 h-screen flex-col align-middle justify-items-center w-screen">
+    <TitleBackground className="flex justify-center mt-0 h-screen flex-col align-middle justify-items-center">
       <div className="mx-auto my-4">
         <motion.div initial="hidden" animate="visible" variants={fade(0)}>
           <motion.div
@@ -34,32 +35,26 @@ export default function Title() {
       <div className="flex-col w-min  mx-auto font-mono">
         <motion.div initial="hidden" animate="visible" variants={fade(2)}>
           <a href="#about">
-            <p className="text-center text-xl my-2 hover:text-purple-400 hover:text-2xl leading-8">
+            <p className="text-center text-xl my-2 hover:text-orange-200 hover:text-2xl leading-8">
               about
             </p>
           </a>
         </motion.div>
         <motion.div initial="hidden" animate="visible" variants={fade(2.4)}>
           <a href="#experience">
-            <p className="text-center text-xl my-2 hover:text-purple-400 hover:text-2xl leading-8">
+            <p className="text-center text-xl my-2 hover:text-orange-200 hover:text-2xl leading-8">
               experience
             </p>
           </a>
         </motion.div>
         <motion.div initial="hidden" animate="visible" variants={fade(2.8)}>
           <a href="#projects">
-            <p className="text-center text-xl my-2 hover:text-purple-400 hover:text-2xl leading-8">
+            <p className="text-center text-xl my-2 hover:text-orange-200 hover:text-2xl leading-8">
               projects
             </p>
           </a>
         </motion.div>
-        <motion.div initial="hidden" animate="visible" variants={fade(3.2)}>
-          <a href="#contact">
-            <p className="text-center text-xl my-2 hover:text-purple-400 hover:text-2xl leading-8">
-              contact
-            </p>
-          </a>
-        </motion.div>
+        <Contact />
       </div>
     </TitleBackground>
   );

@@ -3,8 +3,9 @@ import Title from "./Title";
 import About from "./About";
 import Footer from "./Footer";
 import Experience from "./Experience";
-import Contact from "./Contact";
+import Contact from "../components/Contact";
 import Projects from "./Projects";
+import styled from "styled-components";
 
 export default function Home() {
   return (
@@ -19,7 +20,6 @@ export default function Home() {
       <About />
       <Experience />
       <Projects />
-      <Contact />
       <Footer />
     </>
   );
