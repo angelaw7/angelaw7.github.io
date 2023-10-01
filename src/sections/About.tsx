@@ -1,18 +1,18 @@
-import Heading from "../components/Heading";
-import Skill from "../components/Skill";
 import Image from "next/image";
-import ProfilePic from "../imgs/angela.png";
 import { motion } from "framer-motion";
-import { fade } from "../styles/animations";
+import Heading from "../components/Heading";
 import Section from "../components/Section";
+import Skill from "../components/Skill";
+import ProfilePic from "../imgs/angela.png";
+import { fade } from "../styles/animations";
 
 export default function About() {
   return (
     <div id="about">
-      <Section>
-        <div className="flex flex-col lg:flex-row p-6 justify-center">
-          <div className="lg:w-8/12 mb-10 lg:mb-0">
-            <Heading name="About" color="neutral-200" />
+      <Section bgColour="bg-orange-200">
+        <div className="flex flex-col lg:flex-row">
+          <div className="lg:w-8/12">
+            <Heading name="A quick intro!" color="bg-orange-300" />
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -50,7 +50,7 @@ export default function About() {
               whileInView="visible"
               variants={fade(1, 0.5)}
             >
-              <div className=" rounded-lg flex flex-col border-2 border-fuchsia-200 font-mono justify-center">
+              <div className=" rounded-lg flex flex-col bg-orange-200 font-mono justify-center">
                 <div className="bg-white w-36 h-36 mx-auto my-4 overflow-hidden border-4 border-white">
                   <Image
                     src={ProfilePic}
@@ -61,13 +61,14 @@ export default function About() {
                 </div>
                 <p className="font-bold text-2xl text-center">Angela</p>
                 <div className="h-0.5 w-48 mx-auto my-2" />
-                <div className="text-center lg:text-left m-auto lg:mx-10 my-2">
+                {/* <div className="text-center m-auto my-2">
                   <Skill name="Python" value={5} />
                   <Skill name="Java" value={4} />
                   <Skill name="JavaScript" value={4} />
                   <Skill name="Golang" value={3} />
                   <Skill name="C" value={3} />
-                </div>
+                </div> */}
+                <button>Read more! </button>
               </div>
             </motion.div>
           </div>
