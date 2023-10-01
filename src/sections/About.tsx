@@ -13,7 +13,7 @@ export default function About() {
       <Section bgColour="bg-orange-200">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-8/12">
-            <Heading name="A quick intro!" color="bg-orange-300" />
+            <Heading name="A quick intro" color="bg-orange-200" />
             <motion.div
               initial="hidden"
               whileInView="visible"
